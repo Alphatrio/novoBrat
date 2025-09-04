@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.text {
+  border: 1px solid #ccc;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+
+.entity {
+  background-color: yellow;
+  position: relative;
+}
+
+.entity .label {
+  font-size: 0.8em;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1px 3px;
+  margin-left: 4px;
+}
+
+.menu {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.menu.hidden {
+  display: none;
+}
+
+.menu button {
+  margin: 2px;
+}
